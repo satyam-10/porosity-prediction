@@ -85,4 +85,6 @@ Now we will deploy the Docker container to a cloud platform , Following are the 
 
 **Use Cloud Run to deploy it.**
 
-## 
+## Simple unit test using continuous pipeline service like Travis
+
+We can write unit tests for our code using Python's **unittest** framework and after that we will setup a continuous integration using **Travis** CI. Now we will create a **.travis.yml** file in the root directory.
