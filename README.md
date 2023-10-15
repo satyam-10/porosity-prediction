@@ -78,8 +78,8 @@ Containerization with Docker involves creating lightweight, portable, and isolat
 These are the basic steps for containerizing your application using Docker. Customize the `Dockerfile` and Docker commands to suit your specific application and requirements. Docker provides extensive documentation and resources for more advanced use cases and Dockerfile instructions.
 
 Now we will deploy the Docker container to a cloud platform , Following are the test:
-1.Download the Google Cloud SDK, which you'll need to utilize Cloud Build to create our container.
+**1.Download the Google Cloud SDK, which you'll need to utilize Cloud Build to create our container.**
 ‍
-2.The container is to the Container Registry of GCP.
+**2.The container is to the Container Registry of GCP.**
 ‍
-3.Use Cloud Run to deploy it.
+**3.Use Cloud Run to deploy it.**
