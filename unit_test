@@ -1,0 +1,23 @@
+
+
+import unittest
+from Porosity_prediction import model, predict
+
+class TestMachineLearningModel(unittest.TestCase):
+
+    def test_train_model(self):
+        data = [(1, 2), (2, 3), (3, 4)]
+        model = model(data)
+       
+        self.assertIsNotNone(model)
+
+    def test_predict(self):
+        
+        model = "dummy_model"
+    
+        result = predict(model, 5)
+        
+        self.assertEqual(result, 6)
+
+if __name__ == '__main__':
+    unittest.main()
