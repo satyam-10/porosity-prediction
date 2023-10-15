@@ -1,4 +1,9 @@
+
+
 # porosity-prediction
+
+Predicting porosity from well logs using machine learning is a common task in geology and reservoir engineering. Well logs provide valuable data about subsurface formations, and machine learning can be used to build predictive models.
+
 Containerization with Docker involves creating lightweight, portable, and isolated environments for running applications and services. Here are the steps to containerize an application using Docker:
 
 1. **Install Docker**:
